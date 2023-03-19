@@ -74,13 +74,38 @@ const year = 1991;
 // const f=jonas.calcAge;
 // f();
 
-const jonas = {
-    firstName:'Jonas',
-    year: 1991,
-    calcAge: function () {
-        console.log(this);
-        console.log(2037 - this.year)
-    },
-    greet:()=>console.log(`Hey ${this.firstName}`),
+// const jonas = {
+//     firstName:'Jonas',
+//     year: 1991,
+//     calcAge: function () {
+//         console.log(this);
+//         console.log(2037 - this.year)
+//         const isMillenial=function(){
+//             console.log(this.year>=1981 && this.year<=1996)
+//         };
+//         isMillenial();
+//     },
+//     greet:()=>console.log(`Hey ${this.firstName}`),
+// }
+// jonas.greet();
+// jonas.calcAge();
+
+// let age =30;
+// let oldAge=age;
+// age=31;
+// console.log(age);
+// console.log(oldAge);
+let lastName='williams';
+let oldLastName=lastName;
+lastName='davis'
+console.log(lastName,oldLastName);
+
+const jessica={
+    firstName:'jessica',
+    lastName:'Williams',
+    age:27
 }
-jonas.greet();
+const marriedJessica=jessica;
+marriedJessica.lastName='davis';
+console.log(`Before Marriage: ${jessica.lastName}`);
+console.log(`After Marriage : ${marriedJessica.lastName}`);
