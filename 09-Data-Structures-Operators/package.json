@@ -1,0 +1,19 @@
+{
+  "name": "09-data-structures-operators",
+  "version": "1.0.0",
+  "description": "javascript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ali tarlaci",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8"
+  }
+}
